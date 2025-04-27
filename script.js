@@ -15,4 +15,9 @@ for (let i = 0; i < size; i++) {
   }
 }
 
+const squares = document.querySelectorAll('.square')
+squares.forEach(square => square.addEventListener('mouseover', () => {
+  square.setAttribute('style', 'background-color: darkslategray')
+}))
+
 
