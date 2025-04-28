@@ -26,7 +26,7 @@ const createGrid = size => {
 
 const createButton = () => {
   const button = document.createElement('button')
-  button.textContent = 'Grid size'
+  button.textContent = 'New grid size'
   container.appendChild(button)
   button.addEventListener('click', () => {
     size = parseInt(prompt('Choose grid size:'))
