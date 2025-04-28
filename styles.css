@@ -12,8 +12,18 @@ html, body {
     flex-direction: column;
 }
 
+button {
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(76, 126, 126);
+}
+
 .grid {
     border: 2px solid darkslategray;
+    width: 500px;
+    height: 500px;
 }
 
 .row {
@@ -21,7 +31,7 @@ html, body {
 }
 
 .square {
-    width: 24px;
-    height: 24px;
     border: 1px solid darkslategray;
+    box-sizing: border-box;
+    transition: background-color 0.2s;
 }
